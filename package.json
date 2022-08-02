@@ -25,8 +25,10 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
+    "@sinonjs/fake-timers": "^9.1.2",
     "@stefanprobst/commitlint-config": "^1.0.2",
     "@stefanprobst/prettier-config": "^2.0.2",
+    "@types/sinonjs__fake-timers": "^8.1.2",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
