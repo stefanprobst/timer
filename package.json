@@ -1,6 +1,6 @@
 {
   "name": "@stefanprobst/timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -48,5 +48,8 @@
     "commit-msg": "npx commitlint --edit",
     "pre-commit": "npx lint-staged",
     "pre-push": "npm run validate"
+  },
+  "dependencies": {
+    "@stefanprobst/assert": "^1.0.3"
   }
 }
